@@ -32,6 +32,12 @@ class Welcome extends CI_Controller {
 	}
 
 	public function showCounts(){
+		//comments : 
+		//Active user : status is 1 in table users
+		//Verified user : isVerified is 1 in table users
+		//Product Active : status is 1 in table products
+		//User Active and Verified : userActVer is 1 in table usersProducts
+		//Product Active : productAct is 1 in table usersProducts 
 		$cntAVU = $this->my_model->getActiveVerifiedUser();
 		$cntAVUAP = $this->my_model->getActiveVerifiedUser_ActiveProducts();
 		$cntAP = $this->my_model->getActiveProducts();

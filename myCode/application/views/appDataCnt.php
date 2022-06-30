@@ -82,10 +82,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Welcome to App!</h1>
 
 	<div id="body">
-		<code>Active & Verified Count : <?php echo $cntAVU;?></code>
-		<code>Active & Verified with Attached Products Count : <?php echo $cntAVUAP;?></code>
+		<code>Active & Verified Users Count : <?php echo $cntAVU;?></code>
+		<code>Active & Verified Users with Attached Active Products Count : <?php echo $cntAVUAP;?></code>
 		<code>Active Products Count : <?php echo $cntAP;?></code>
-		<code>Active Products  Count with no attached User : <?php echo $cntAPNU;?></code>
+		<code>Active Products Count with no attached User : <?php echo $cntAPNU;?></code>
 		<code>Amount of all Active Attached Products : <?php echo $amtAAP;?></code>
 		<code>Summarized Price of all Active Attached Products : <?php echo $sumAmtAAP;?></code>
 		<code>Summarized Price of all Active Products per User : </code>
